@@ -1,0 +1,28 @@
+.p-global-nav {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.p-global-nav__item {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.p-global-nav__item a {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 5px;
+  color: var(--linkGray);
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  transition: 0.15s;
+}
+
+.p-global-nav__item.is-active a,
+.p-global-nav__item a:hover {
+  background-color: var(--pink);
+  color: var(--white);
+}

@@ -1,0 +1,8 @@
+.c-copyright {
+  margin-top: 30px;
+  letter-spacing: 1px;
+}
+
+.c-copyright.is-center {
+  text-align: center;
+}

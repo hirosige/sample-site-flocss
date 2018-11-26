@@ -1,0 +1,15 @@
+.c-logo {
+  width: 225px;
+  height: 56px;
+  margin: 0 auto;
+  background: url('images/logo.png') no-repeat;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+
+.c-logo a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}

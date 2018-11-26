@@ -1,0 +1,56 @@
+.p-scroll-list {
+  max-height: 220px;
+  overflow-y: auto;
+  margin-bottom: 30px;
+  list-style-type: none;
+}
+
+.p-scroll-list__item a {
+  display: block;
+  padding: 10px 15px;
+  color: var(--linkGray);
+  font-size: 0;
+  transition: background-color 0.1s;
+}
+
+.p-scroll-list__item:nth-of-type(even) a {
+  background: url('images/bg-slash.gif');
+}
+
+.p-scroll-list__item a:hover {
+  background-color: var(--hoverWhite);
+}
+
+.p-scroll_list__item__date {
+  display: inline-block;
+  width: 19%;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 1.0rem;
+}
+
+.p-scroll_list__item__category {
+  display: inline-block;
+  width: 8%;
+  border-radius: 5px;
+  background-color: var(--pink);
+  color: var(--white);
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 1.0rem;
+  line-height: 16px;
+}
+
+.p-scroll_list__item__category.is-news {
+  background-color: var(--newsGray);
+}
+
+.p-scroll_list__item__title {
+  display: inline-block;
+  width: 73%;
+  padding-left: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 1.2rem;
+}

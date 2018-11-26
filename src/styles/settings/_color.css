@@ -1,0 +1,22 @@
+:root {
+  --pink: #d03c56;
+  --black: #000;
+  --whiteShadow: #e3e3e3;
+  --blackShadow: rgba(0, 0, 0, 0.15);
+  --linkGray: #333;
+  --white: #fff;
+  --coverBlack: #2d3d54;
+  --whiteGray: #ddc;
+  --gray555: #555;
+  --graybbb: #bbb;
+  --grayddd: #ddd;
+  --gray777: #777;
+  --grayccc: #ccc;
+  --grayaaa: #aaa;
+  --lightGreen: #b5d264;
+  --hoverWhite: #fafaf8;
+  --newsGray: #2c3c53;
+  --gold: #dab413;
+  --silver: #6e7b84;
+  --bronz: #a0541a;
+}

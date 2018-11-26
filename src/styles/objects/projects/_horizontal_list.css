@@ -1,0 +1,27 @@
+.p-horizontal-list {
+  width: 970px;
+  margin: 0 auto;
+  text-align: right;
+  font-size: 0;
+}
+
+.p-horizontal-list__item {
+  display: inline-block;
+  padding: 0 15px;
+  letter-spacing: 1px;
+}
+
+.p-horizontal-list .p-horizontal-list__item + .p-horizontal-list__item {
+  border-left: 1px solid var(--graybbb);
+}
+
+.p-horizontal-list__item a {
+  border-bottom: 1px dashed var(--gray777);
+  color: var(--graybbb);
+  font-size: 1.1rem;
+  transition: color 0.15s;
+}
+
+.p-horizontal-list__item a:hover {
+  color: var(--grayddd);
+}

@@ -1,0 +1,80 @@
+.p-ranking {
+  margin-bottom: 30px;
+  list-style-type: none;
+  counter-reset: ranking;
+}
+
+.p-raking__item {
+  margin-top: 15px;
+}
+
+.p-ranking__item a {
+  display: block;
+  font-size: 0;
+  transition: opacity 0.15s;
+}
+
+.p-ranking__item a:hover {
+  opacity: 0.8;
+}
+
+.p-ranking__item__image {
+  width: 55px;
+  height: 55px;
+}
+
+.p-ranking__item__text {
+  display: inline-block;
+  width: 182px;
+  color: var(--black);
+  vertical-align: top;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.p-ranking__item__order {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin: 0 10px;
+  border: 1px solid var(--grayccc);
+  color: var(--grayaaa);
+  vertical-align: 20px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 16px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.p-ranking__item:nth-of-type(1) .p-ranking__item__order,
+.p-ranking__item:nth-of-type(2) .p-ranking__item__order,
+.p-ranking__item:nth-of-type(3) .p-ranking__item__order {
+  border: none;
+  color: var(--white);
+  font-weight: normal;
+  line-height: 18px;
+}
+
+.p-ranking__item:nth-of-type(1) .p-ranking__item__order {
+  background-color: var(--gold);
+}
+
+.p-ranking__item:nth-of-type(2) .p-ranking__item__order {
+  background-color: var(--silver);
+}
+
+.p-ranking__item:nth-of-type(3) .p-ranking__item__order {
+  background-color: var(--bronz);
+}
+
+.p-ranking__item__order::before {
+  content: counter(ranking);
+  counter-increment: ranking;
+  display: inline-block;
+  font-size: 1.0rem;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}

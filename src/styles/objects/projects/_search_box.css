@@ -1,0 +1,25 @@
+.p-search-box {
+  padding: 15px;
+  background-color: var(--grayccc);
+  font-size: 0;
+}
+
+.p-search-box > * {
+  font-size: 1.2rem;
+}
+
+.p-search-box__input {
+  width: 205px;
+  height: 26px;
+  padding: 0 10px;
+  border: none;
+}
+
+.p-search-box__button.c-button {
+  width: 40px;
+  height: 26px;
+}
+
+.p-search-box__text {
+  margin-top: 12px;
+}

@@ -1,0 +1,6 @@
+.l-footer {
+  width: 100%;
+  padding: 20px 0 30px;
+  background: var(--coverBlack) url('images/bg-footer.gif');
+  color: var(--white);
+}
