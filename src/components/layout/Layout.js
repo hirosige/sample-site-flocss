@@ -3,7 +3,7 @@ import Header from './Header'
 import Wrapper from './Wrapper'
 import Main from './Main'
 import Footer from './Footer'
-import Sidemenu from './Sidemenu';
+import Sidemenu from '../sidemenu/Sidemenu';
 
 const Layout = props => (
   <React.Fragment>

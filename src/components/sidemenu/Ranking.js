@@ -1,5 +1,5 @@
 import React from 'react'
-import RankingImg from '../images/ranking.jpg'
+import RankingImg from '../../images/ranking.jpg'
 
 const Ranking = () => (
   <React.Fragment>

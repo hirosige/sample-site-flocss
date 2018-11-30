@@ -1,5 +1,5 @@
 import React from 'react'
-import ArticleImg from '../images/article.jpg'
+import ArticleImg from '../../images/article.jpg'
 
 const Articles = () => (
   <section className="p-articles">
